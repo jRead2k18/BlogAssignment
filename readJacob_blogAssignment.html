@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Online Resumé</title>
+    </head>
+    <body>
+        <h1>Jacob Read's Resumé</h1><br>
+        <img src="youngJacobRead.jpg" alt="A picture of Jacob Read" width="200" height="250">
+        <h3 id="profPicText">This is me when I was younger</h3>
+        <h4 id="jobTableHeader">My Current/Previous Jobs</h4>
+        <table>
+            <thead>
+                <tr>
+                    <td>Previous Job</td>
+                    <td>End Date</td>
+                    <td>Start Date</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AutoZone</td>
+                    <td>Feb. 2019</td>
+                    <td>Current</td>
+                </tr>
+                <tr>
+                    <td>Amazon</td>
+                    <td>Nov. 2019</td>
+                    <td>Dec. 2019</td>
+                </tr>
+                <tr>
+                    <td>Domino's</td>
+                    <td>Mar. 2018</td>
+                    <td>Oct. 2018</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li>Responsibilities for AutoZone</li>
+                <ul>
+                    <li>Selling the right parts for the right job.</li>
+                    <li>Help the customer since they are having a rough time.</li>
+                    <li>Keep the store clean.</li>
+                </ul>
+            <li>Responsibilities for Amazon</li>
+                <ul>
+                    <li>Scan items and put them in the correct totes.</li>
+                    <li>Help other coworkers if they are stuck with something.</li>
+                    <li>Had to keep up the number of things I scanned to a minimum amount.</li>
+                </ul>
+            <li>Responsibilities for Domino's</li>
+                <ul>
+                    <li>Deliver the correct food/drinks to the correct customer.</li>
+                    <li>Help out the store when I was not on a delivery.</li>
+                    <li>Keep the store and my car clean.</li>
+                </ul>
+        </ul>
+        <form action="submitInfo">
+            <label for="email">Email of Hiring Manager:</label>
+            <input type="email" id="email">
+            <br>
+            <label>Where Did You Hear About Me?</label>
+            <br>
+            <input type="radio" id="Indeed" name="whereFound">
+            <label for="Indeed">Indeed</label>
+            <br>
+            <input type="radio" id="LinkedIn" name="whereFound">
+            <label for="LinkedIn">LinkedIn</label>
+            <br>
+            <input type="radio" id="GitHub" name="whereFound">
+            <label for="GitHub">GitHub</label>
+        </form>
+    </body>
+</html>
